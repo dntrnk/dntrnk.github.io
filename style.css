@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    image-rendering: pixelated;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.dntrnk {
+    display: block;
+    margin-top: 40px;
+}
+
+.dntrnkText {
+    display: block;
+    margin-top: 16px;
+}
