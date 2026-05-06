@@ -38,3 +38,19 @@ img {
     display: block;
     margin-top: 16px;
 }
+
+.youtube-link {
+    display: inline-block;
+    background-color: #FF0000;
+    color: white;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.2s;
+}
+
+.youtube-link:hover {
+    background-color: #CC0000;
+}
