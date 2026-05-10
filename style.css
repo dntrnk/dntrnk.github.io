@@ -5,6 +5,11 @@ body {
     margin: 0;
 }
 
+a {
+    color: #8EC8F2;
+    text-decoration: none;
+}
+
 .header {
     background-color: black;
     text-align: center;
@@ -14,14 +19,6 @@ body {
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
-}
-
-.content {
-    max-width: 800px;
-    margin: 20px auto;
-    font-size: 20px;
-    text-align: left;
-    padding-left: 16px;
 }
 
 img {
@@ -39,18 +36,15 @@ img {
     margin-top: 16px;
 }
 
-.youtube-link {
-    display: inline-block;
-    background-color: #FF0000;
-    color: white;
-    text-decoration: none;
-    padding: 10px 22px;
-    border-radius: 8px;
-    font-weight: bold;
-    font-size: 18px;
-    transition: background-color 0.2s;
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 16px;
 }
 
-.youtube-link:hover {
-    background-color: #CC0000;
+.icon {
+    width: 64px;
+    height: auto;    
 }
