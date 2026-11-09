@@ -22,18 +22,20 @@ a {
 }
 
 img {
-    image-rendering: pixelated;
     max-width: 100%;
     max-height: 100%;
 }
 
 .dntrnk {
     display: block;
+    width: 128px;
+    height: 128px;
 }
 
 .dntrnkText {
     display: block;
     margin-top: 16px;
+    image-rendering: pixelated;
 }
 
 .content {
